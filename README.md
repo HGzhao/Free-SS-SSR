@@ -6,18 +6,11 @@
 
 如有任何问题，欢迎在issues中交流。
 
+### Docker版客户端
+
+见[Docker.md](Docker.md)
+
 ### :palm_tree: [SS账号](https://www.youneed.win/free-ss)
-
-#### Docker版SS客户端
-
-Dockerfile在[Dockerfile](Dockerfile)。
-
-运行指令
-```
-docker build -t youneed-ss .
-docker run -it --rm -p 1080:1080 -p 8118:8118 youneed-ss
-```
-1080是socks5代理，8118是http代理。
 
 ### :deciduous_tree: [SSR账号](https://www.youneed.win/free-ssr)
 
@@ -35,5 +28,15 @@ docker run -it --rm -p 1080:1080 -p 8118:8118 youneed-ss
 ### :palm_tree: [SS账号](https://flywind.ml//free-ss)
 
 ### :deciduous_tree: [SSR账号](https://flywind.ml//free-ssr)
+
+### :heavy_check_mark: 继续访问主域名[www.youneed.win](https://www.youneed.win)方法
+
+> * 目录：C:/Windows/System32/drivers/etc，用记事本打开host文件
+> * 在最后添加并保存：104.31.74.55 youneed.win
+> * 在最后添加并保存：104.31.74.55 www.youneed.win
+> * 进入命令行(win+R 输入cmd回车)，执行：ipconfig /flushdns
+> * 重新刷新页面即可,如失效请还原host并用代理访问
+
+（也可以用DNS-Over-HTTPS加ESNI。[Firefox浏览器设置方法](https://blog.mozilla.org/security/2018/10/18/encrypted-sni-comes-to-firefox-nightly/)）
 
 [若本项目对您有所帮助，欢迎Star](https://github.com/dxxzst/Free-SS-SSR)
