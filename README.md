@@ -19,15 +19,9 @@
 服务器有点垃圾，偶尔不能访问时，可以提issue或发邮件:email:。
 
 ------
-**2019.07.25更新**
+**2019.09.23更新**
 
-很不幸，原来的域名被和谐，因此启用了临时域名[flywind.ml](https://flywind.ml)，希望大家低调使用。
-
-主域名[www.youneed.win](https://www.youneed.win)不会变更，大家可以书签收藏。临时域名和谐后会及时更新。
-
-### :palm_tree: [SS账号](https://flywind.ml//free-ss)
-
-### :deciduous_tree: [SSR账号](https://flywind.ml//free-ssr)
+主域名[www.youneed.win](https://www.youneed.win)被和谐，~~启用了临时域名[flywind.ml](https://flywind.ml)（河蟹too）。~~
 
 ### :heavy_check_mark: 继续访问主域名[www.youneed.win](https://www.youneed.win)方法
 
@@ -37,6 +31,12 @@
 > * 进入命令行(win+R 输入cmd回车)，执行：ipconfig /flushdns
 > * 重新刷新页面即可,如失效请还原host并用代理访问
 
-（也可以用DNS-Over-HTTPS加ESNI。[Firefox浏览器设置方法](https://blog.mozilla.org/security/2018/10/18/encrypted-sni-comes-to-firefox-nightly/)）
+最终如图：
+
+![host文件](https://raw.githubusercontent.com/dxxzst/Free-SS-SSR/master/20190823174906.png)
+
+也可以用火狐浏览器并启用DNS-Over-HTTPS。[设置方法参考](https://www.cccitu.com/3913.html)
+
+或者Android Pie及以上版本启用DNS-Over-TLS。[设置方法参考](https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/android/)
 
 [若本项目对您有所帮助，欢迎Star](https://github.com/dxxzst/Free-SS-SSR)
